@@ -13,7 +13,7 @@ pipeline {
 
            steps {
 
-               git branch: 'master',
+               git branch: 'main',
 
                url: 'https://github.com/Salsabil-23/StudentManagement.git'
 
