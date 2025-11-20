@@ -33,4 +33,34 @@ pipeline {
 
  }
 
+} stage ('Unit Testing Stage') {
+
+ steps {
+
+ sh 'mvn test'
+
+ }
+
+ }
+
+ stage ('Package Stage') {
+
+ steps {
+
+ sh 'mvn package'
+
+ }
+
+ }
+
+ stage ('Deploy Stage') {
+
+ steps {
+
+ sh 'mvn deploy'
+
+ }
+
+ }
+
 }
