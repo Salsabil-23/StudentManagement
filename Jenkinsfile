@@ -15,7 +15,7 @@ pipeline {
 
                git branch: 'master',
 
-               url: 'https://github.com/Salsabil-23/StudentManagement.git'
+               url: 'https://github.com/Malekmouelh/devops.git'
 
           }
 
